@@ -2,9 +2,9 @@ const addressForm = document.querySelector("#address-form");
 const cepInput = document.querySelector("#cep");
 const addressInput = document.querySelector("#address");
 const cityInput = document.querySelector("#city");
-const neighborhoodInput = document.querySelectorquerySelector("#neighborhood");
+const neighborhoodInput = document.querySelector("#neighborhood");
 const regionInput = document.querySelector("#region");
-const formInputs = document.querySelector("[data-input]");
+const formInputs = document.querySelectorAll("[data-input]");
 
 const closeButton = document.querySelector("#close-message");
 
